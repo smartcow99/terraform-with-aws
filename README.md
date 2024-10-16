@@ -128,6 +128,7 @@ terraform plan
 ```bash
 terraform apply
 ```
+   *-auto-approve* 옵션을 통해 작업을 줄일 수 있습니다.
 ### 4. 필요 시, 삭제:
 ```bash
 terraform destroy
