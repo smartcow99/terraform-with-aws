@@ -5,11 +5,15 @@ AWS S3를 사용하여 정적 웹사이트를 호스팅하고, HTML 파일을 �
 ## 프로젝트 구조 🗂️
 ```
 .
+├── update_files.sh         # 수정 파일 업로드
+├── index.html
+├── main.html
 ├── bucket.tf               # S3 버킷 생성
 ├── upload_index.tf         # index.html 파일 업로드
 ├── upload_main.tf          # main.html 파일 업로드
-├── update_index.tf         # index.html 파일 수정 및 재업로드
-└── update_main.tf          # main.html 파일 수정 및 재업로드
+├── update_index.tf         # index.html 수정파일 업로드
+└── update_main.tf          # main.html 수정파일 업로드
+
 ```
 
 ## 작업 내용 🛠️
