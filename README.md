@@ -16,7 +16,7 @@ AWS S3를 사용하여 정적 웹사이트를 호스팅하고, HTML 파일을 �
 
 1. **S3 버킷 생성**: 
    - `bucket.tf` 파일을 사용하여 S3 버킷을 생성하였습니다.
-   - 버킷 이름: `ce13-bucket01`
+   - 버킷 이름: `bucket_name`
 
 2. **HTML 파일 업로드**: 
    - `upload_index.tf` 파일을 통해 `index.html` 파일을 S3 버킷에 업로드하였습니다.
