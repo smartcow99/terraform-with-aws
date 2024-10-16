@@ -1,7 +1,0 @@
-# 이미 존재하는 S3 버킷에 index.html 파일 수정
-resource "aws_s3_object" "modify_index" {
-  bucket        = "bucket_name"  # 생성된 S3 버킷 이름 사용
-  key           = "index.html"
-  source        = "modified_index.html"
-  content_type  = "text/html"
-}
